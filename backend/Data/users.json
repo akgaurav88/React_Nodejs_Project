@@ -1,0 +1,25 @@
+[
+     {
+         "name" : "mahesh",
+         "password" : "password1",
+         "profession" : "teacher",
+         "id": 1,
+         "email":"akgaurav8@gnail.com"
+
+      },
+      {
+         "name" : "suresh",
+         "password" : "password2",
+         "profession" : "librarian",
+         "id": 2,
+         "email":"akgaurav0@gnail.com"
+      },  
+      {
+         "name" : "ramesh",
+         "password" : "password3",
+         "profession" : "clerk",
+         "id": 3,
+         "email":"akgaurav0@gnail.com"
+      }
+    
+]
