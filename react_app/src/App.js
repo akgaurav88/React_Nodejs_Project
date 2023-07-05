@@ -6,6 +6,7 @@ import Abouts from './routes/Abouts'
 import Services from './routes/Services';
 import Register from './pages/Register';
 import Landing from './pages/Landing';
+import FormPage from './routes/FormPage';
 function App() {
   return (
     <>
@@ -17,6 +18,7 @@ function App() {
       <Route path='/services' element={<Services/>}></Route>
       <Route path='/register' element={<Register/>}></Route>
       <Route path='/home' element={<Home/>}></Route>
+      <Route path='/Form' element={<FormPage/>}></Route>
     </Routes>   
     </>
   );

@@ -1,7 +1,16 @@
 import React from "react";
 import logo from "../assets/images/in_the_office.svg";
 import main from "../assets/images/traveling.svg";
+import { useNavigate } from "react-router-dom";
 const Landing = () => {
+  const navigate= useNavigate();
+
+  const registerred = (e) => {
+    navigate('/Form');
+
+};
+
+
   return (
     <div>
       <nav>
@@ -26,7 +35,7 @@ const Landing = () => {
             humblebrag, cloud bread gluten-free jean shorts hexagon fanny pack
             activated charcoal lo-fi.
           </p>
-          <button type="button" className="btn btn-hero">Login/Register</button>
+          <button type="button" className="btn btn-hero" onClick={registerred}>Register</button>
         </div>
         <img
           src={main}
